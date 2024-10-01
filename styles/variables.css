@@ -2,3 +2,29 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+/* 
+  Базовые переменные, которые соответствуют темной теме. Эти значения будут использоваться по умолчанию, если не применены другие классы темы. 
+*/
+
+:root {
+  --main-color: #ff0077;
+  --background-color: #000028;
+  --border-color: #ff0077;
+  --focus-color: #ff0077;
+  --focus-underline-color: #ff0077;
+  --main-color-translucent: rgba(255, 0, 112, 0.4);
+  --base-font-size: 18px;
+  --font-size-h1: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --titel-text-color: #db00ff;
+  --color-h1: #db00ff;
+  --color-h2: #ff0077;
+  --subtitle-text-color: #000028;
+  --text-color: #f1b2ce;
+  --background-image: url(../images/cover-image-dark.png);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --font-size-h1: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+}
