@@ -29,13 +29,15 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-color: #353430;
+    --main-color: #ff8dcb;
     --background-color: #fff1f7;
     --border-color: #353430;
     --focus-color: #353430;
     --focus-underline-color: #353430;
     --main-color-translucent: rgba(53, 52, 48, 0.4);
     --titel-text-color: #353430;
+    --color-h1: #ffc2e6;
+    --color-h2: #353430;
     --subtitle-text-color: #353430;
     --text-color: #353430;
     --background-image: url(../images/cover-image-light.png);
