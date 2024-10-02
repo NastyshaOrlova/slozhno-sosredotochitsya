@@ -17,13 +17,11 @@
   --subtitle-text-color: #353430;
   --text-color: #353430;
   --background-image: url(../images/cover-image-light.png);
+  --decorated-zone-color: #353430;
+  --theme-color: #353430;
 
   .block-rec {
     display: none;
-  }
-
-  .card__link {
-    border-bottom: none;
   }
 }
 
@@ -41,13 +39,11 @@
     --subtitle-text-color: #353430;
     --text-color: #353430;
     --background-image: url(../images/cover-image-light.png);
+    --decorated-zone-color: #353430;
+    --theme-color: #353430;
   }
 
   .block-rec {
     display: none;
-  }
-
-  .card__link {
-    border-bottom: none;
   }
 }

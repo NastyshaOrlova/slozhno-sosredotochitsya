@@ -16,10 +16,29 @@
   --focus-color: #ff0077;
   --focus-underline-color: #ff0077;
   --main-color-translucent: rgba(255, 0, 112, 0.4);
+  --base-font-size: 18px;
+  --font-size-h1: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --titel-text-color: #db00ff;
   --color-h1: #db00ff;
   --color-h2: #ff0077;
   --subtitle-text-color: #000028;
   --text-color: #f1b2ce;
   --background-image: url(../images/cover-image-dark.png);
+  --decorated-zone-color: #ff0077;
+  --theme-color: #ff0077;
+
+  .block-rec {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    top: 0.6em;
+    right: 1.1em;
+    color: var(--main-color);
+
+    @media (min-width: 768px) {
+      top: 1.1em;
+      right: 1.6em;
+    }
+  }
 }

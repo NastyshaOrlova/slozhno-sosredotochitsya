@@ -21,6 +21,8 @@
   --subtitle-text-color: #000028;
   --text-color: #f1b2ce;
   --background-image: url(../images/cover-image-dark.png);
+  --decorated-zone-color: #ff0077;
+  --theme-color: #ff0077;
 }
 
 @media (min-width: 768px) {
