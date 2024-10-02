@@ -23,6 +23,7 @@
   --background-image: url(../images/cover-image-dark.png);
   --decorated-zone-color: #ff0077;
   --theme-color: #ff0077;
+  --rec-visible: visible;
 }
 
 @media (min-width: 768px) {

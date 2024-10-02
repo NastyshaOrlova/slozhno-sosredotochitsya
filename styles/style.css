@@ -29,6 +29,7 @@
 }
 
 .block-rec {
+  visibility: var(--rec-visible);
   position: absolute;
   display: flex;
   align-items: center;

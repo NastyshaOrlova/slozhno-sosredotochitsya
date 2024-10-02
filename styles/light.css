@@ -19,10 +19,7 @@
   --background-image: url(../images/cover-image-light.png);
   --decorated-zone-color: #353430;
   --theme-color: #353430;
-
-  .block-rec {
-    display: none;
-  }
+  --rec-visible: hidden;
 }
 
 @media (prefers-color-scheme: light) {
@@ -41,9 +38,6 @@
     --background-image: url(../images/cover-image-light.png);
     --decorated-zone-color: #353430;
     --theme-color: #353430;
-  }
-
-  .block-rec {
-    display: none;
+    --rec-visible: hidden;
   }
 }
